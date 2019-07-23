@@ -1,0 +1,36 @@
+{
+  "name": "@emvicify/socket.io-driver",
+  "version": "0.0.1",
+  "description": "Web sockets implementation for Emvicify (using Socket.io)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcnvdl/emvicify-socket.io.git"
+  },
+  "keywords": [
+    "emvicify",
+    "socket",
+    "websocket",
+    "websockets",
+    "socket.io"
+  ],
+  "author": "lcnvdl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcnvdl/emvicify-socket.io/issues"
+  },
+  "homepage": "https://github.com/lcnvdl/emvicify-socket.io#readme",
+  "dependencies": {
+    "@emvicify/base": "0.0.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
