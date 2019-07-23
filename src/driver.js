@@ -3,6 +3,7 @@ const { WebSocketsDriver } = drivers;
 
 class Driver extends WebSocketsDriver {
     constructor() {
+        super();
         this.isRunning = false;
     }
 
