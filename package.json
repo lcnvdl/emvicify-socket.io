@@ -1,6 +1,6 @@
 {
   "name": "@emvicify/socket.io-driver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Web sockets implementation for Emvicify (using Socket.io)",
   "main": "index.js",
   "directories": {
@@ -27,10 +27,11 @@
   },
   "homepage": "https://github.com/lcnvdl/emvicify-socket.io#readme",
   "dependencies": {
-    "@emvicify/base": "0.0.3",
-    "socket.io": "^2.2.0"
+    "@emvicify/base": "0.0.7",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
   }
 }
