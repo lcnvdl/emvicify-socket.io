@@ -35,7 +35,7 @@ class Driver extends WebSocketsDriver {
             this.events.emit(this.socketEvent.Connect, connection);
 
             socket.on("message", data => {
-                this.events.emit(this.socketEvent.Message, connection);
+                this.events.emit(this.socketEvent.Message, connection, data);
             });
 
             socket.on("disconnect", () => {
